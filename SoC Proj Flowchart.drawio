@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.4.0">
+  <diagram name="Page-1" id="HTaBlwXBIW25GPJ2BjYP">
+    <mxGraphModel dx="689" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TPyT2oPniG74Bz_HtOic-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 24px; color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Start&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-15" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Initialize System&lt;/font&gt;&lt;div&gt;Reset Counter&lt;/div&gt;&lt;div&gt;Clear Buffers&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="155" x="302.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-16" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Load CNN Weights&lt;/font&gt;&lt;div&gt;into registers&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="295" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-17" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Read Input Pixel&lt;/font&gt;&lt;div&gt;(Image / Camera)&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="155" x="302.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-18" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Update Line Buffers&lt;/font&gt;&lt;div&gt;Shift Pixel Rows&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="175" x="292.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-20" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" target="TPyT2oPniG74Bz_HtOic-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="610" />
+              <mxPoint x="560" y="360" />
+            </Array>
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-26" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="3x3 Window Available?" vertex="1">
+          <mxGeometry height="100" width="120" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-29" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Apply ReLU&lt;/font&gt;&lt;div&gt;Activation&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="155" x="302.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-30" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Pooling Window Full?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="167.5" x="296.25" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-32" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TPyT2oPniG74Bz_HtOic-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-33" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TPyT2oPniG74Bz_HtOic-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Max / Avg Pool?" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Output Pixel&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="141.25" x="309.38" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 24px; color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;End&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-12" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TPyT2oPniG74Bz_HtOic-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="72" as="sourcePoint" />
+            <mxPoint x="490" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;i&gt;No&lt;/i&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="425" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;i&gt;Yes&lt;/i&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="292.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-28" edge="1" parent="1" source="TPyT2oPniG74Bz_HtOic-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TPyT2oPniG74Bz_HtOic-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="740" />
+            </Array>
+            <mxPoint x="165" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-25" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Perform Convolution&lt;/b&gt;&lt;div&gt;(MAC Operations)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="90" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;i&gt;No&lt;/i&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="425" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="TPyT2oPniG74Bz_HtOic-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;i&gt;Yes&lt;/i&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="990" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
